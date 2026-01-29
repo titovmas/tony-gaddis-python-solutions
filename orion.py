@@ -10,6 +10,7 @@ turtle.pencolor('white')
 
 # Install turtle
 turtle.penup()
+turtle.speed(1)
 turtle.hideturtle()
 
 # Create named constants for star coordinates
@@ -50,6 +51,21 @@ turtle.dot()
 turtle.goto(RIGHT_KNEE_X, RIGHT_KNEE_Y)             # Right knee
 turtle.dot()
 
+# Display the names of the stars
+turtle.goto(LEFT_SHOULDER_X, LEFT_SHOULDER_Y)       # Left shoulder
+turtle.write("Betelgeuse")
+turtle.goto(RIGHT_SHOULDER_X, RIGHT_SHOULDER_Y)     # Right shoulder
+turtle.write("Bellatrix")
+turtle.goto(LEFT_BELTSTAR_X, LEFT_BELTSTAR_Y)       # Left beltstar
+turtle.write("Alnitak")
+turtle.goto(MIDDLE_BELTSTAR_X, MIDDLE_BELTSTAR_Y)   # Middle beltstar
+turtle.write("Alnilam")
+turtle.goto(RIGHT_BELTSTAR_X, RIGHT_BELTSTAR_Y)     # Right beltstar
+turtle.write("Mintaka")
+turtle.goto(LEFT_KNEE_X, LEFT_KNEE_Y)               # Left knee
+turtle.write("Saiph")
+turtle.goto(RIGHT_KNEE_X, RIGHT_KNEE_Y)             # Right knee
+turtle.write("Rigel")
 
 
 
