@@ -22,3 +22,22 @@ NORTH = 90              # North direction angle
 SOUTH = 270             # South direction angle
 EAST = 0                # East direction angle
 WEST = 180              # West direction angle
+
+# Set window size
+turtle.setup(SCREEN_WIDTH, SCREEN_HEIGHT)
+
+# Draw a target
+turtle.hideturtle()
+turtle.speed(0)
+turtle.penup()
+turtle.goto(TARGET_LLEFT_X, TARGET_LLEFT_Y)
+turtle.pen.down()
+turtle.setheading(EAST)
+turtle.forward(TARGET_WIDTH)
+turtle.setheading(NORTH)
+turtle.forward(TARGET_WIDTH)
+turtle.setheading(WEST)
+turtle.forward(TARGET_WIDTH)
+turtle.setheading(SOUTH)
+turtle.forward(TARGET_WIDTH)
+turtle.penup()
