@@ -41,3 +41,42 @@ turtle.forward(TARGET_WIDTH)
 turtle.setheading(SOUTH)
 turtle.forward(TARGET_WIDTH)
 turtle.penup()
+
+# Centering the turtle
+turtle.goto(0, 0)
+turtle.setheading(EAST)
+turtle.showturtle()
+turtle.speed(PROJECTILE_SPEED)
+
+# Get the angle of the shot and the power from the user
+angle = float(input("Enter the angle of the projectile shot: "))
+force = float(input("Enter the starting force (1 - 10): "))
+
+# Calculate the distance
+distance = force * FORCE_FACTOR
+
+# Set direction
+turtle.setheading(angle)
+
+# Launch a projectile
+turtle.pendown()
+turtle.forward(distance)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
