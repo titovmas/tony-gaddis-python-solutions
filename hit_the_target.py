@@ -31,7 +31,7 @@ turtle.hideturtle()
 turtle.speed(0)
 turtle.penup()
 turtle.goto(TARGET_LLEFT_X, TARGET_LLEFT_Y)
-turtle.pen.down()
+turtle.pendown()
 turtle.setheading(EAST)
 turtle.forward(TARGET_WIDTH)
 turtle.setheading(NORTH)
@@ -63,20 +63,15 @@ turtle.pendown()
 turtle.forward(distance)
 
 
+# Did the projectile hit the target?
+if (turtle.xcor() >= TARGET_LLEFT_X and
+    turtle.xcor() <= (TARGET_LLEFT_X + TARGET_WIDTH) and
+    turtle.ycor() >= TARGET_LLEFT_Y and
+    turtle.ycor() <= (TARGET_LLEFT_Y + TARGET_WIDTH)):
+    print("The target is hit!")
+else:
+    print("You missed")
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+# Leave the window open
+turtle.done()
