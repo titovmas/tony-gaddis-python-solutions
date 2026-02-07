@@ -31,5 +31,5 @@ The repository is organized by chapters. Each folder contains solutions to the "
 ## 📈 Learning Progress
 - [x] Chapter 1: Introduction to Computers and Programming
 - [x] Chapter 2: Input, Processing, and Output
-- [ ] Chapter 3: Decision Structures and Boolean Logic
+- [x] Chapter 3: Decision Structures and Boolean Logic
 - [ ] ... (Work in Progress)
