@@ -33,4 +33,5 @@ The repository is organized by chapters. Each folder contains solutions to the "
 - [x] Chapter 2: Input, Processing, and Output
 - [x] Chapter 3: Decision Structures and Boolean Logic
 - [x] Chapter 4: Repetition Structures (Loops)
+- [x] Chapter 5: Functions
 - [ ] ... (Work in Progress)
